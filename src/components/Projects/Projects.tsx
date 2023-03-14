@@ -14,9 +14,10 @@ const Projects = () => (
         <Img src={image} />
         <TitleContent>
           <HeaderThree title={title}>
-
+          <Hr />
           </HeaderThree>
         </TitleContent>
+        <CardInfo>{description}</CardInfo>
         </BlogCard>
       ))}
     </GridContainer>
