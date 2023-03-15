@@ -12,12 +12,32 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
             Experience with <br />
             React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Back-end</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Node.js and databases
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiZend size="3rem" />
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            tools like Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
