@@ -10,9 +10,27 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel: 111-111-111"></LinkItem>
+          <LinkItem href="tel: 111-111-111">111-111-111</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto: maciek@pastuszak.pl">maciek@pastuszak.pl</LinkItem>
         </LinkColumn>
       </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Innovating one project at a time</Slogan>
+        </CompanyContainer>
+        <SocialIcons href='https://github.com'>
+        <AiFillGithub size='3rem' />
+      </SocialIcons>
+      <SocialIcons href='https://linkedin.com'>
+        <AiFillLinkedin size='3rem' />
+      </SocialIcons>
+      <SocialIcons href='https://instragram.com'>
+        <AiFillInstagram size='3rem' />
+      </SocialIcons>
+      </SocialIconsContainer>
     </FooterWrapper>
   );
 };
